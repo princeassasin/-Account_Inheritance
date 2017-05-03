@@ -6,7 +6,6 @@ public class account {
 
 	int principle ;
 	float annual;
-	int numtime;
 	int year;
 	
 	public void  getDetail() {
@@ -16,8 +15,6 @@ public class account {
 		principle = sc.nextInt();
 		System.out.println("Eneter annual amount: ");
 		annual = sc.nextFloat();
-		System.out.println("Eneter numer of time the compound interest per year: ");
-		numtime = sc.nextInt();
 		System.out.println("Eneter year: ");
 		year = sc.nextInt();
 		sc.close();

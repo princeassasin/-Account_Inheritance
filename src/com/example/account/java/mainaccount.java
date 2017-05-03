@@ -22,7 +22,7 @@ public class mainaccount {
 			savingsacount sp = new savingsacount();
 			sp.calculate();
 		}
-
+sc.close();
 	}
 
 }
